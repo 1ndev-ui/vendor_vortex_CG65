@@ -8,7 +8,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/vortex/CG65/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
     vendor/vortex/CG65/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
-    vendor/vortex/CG65/proprietary/system_ext/apex/com.android.vndk.v30.apex:$(TARGET_COPY_OUT_SYSTEM_EXT)/apex/com.android.vndk.v30.apex \
+#    vendor/vortex/CG65/proprietary/system_ext/apex/com.android.vndk.v30.apex:$(TARGET_COPY_OUT_SYSTEM_EXT)/apex/com.android.vndk.v30.apex \
     vendor/vortex/CG65/proprietary/system_ext/apex/com.android.vndk.v31.apex:$(TARGET_COPY_OUT_SYSTEM_EXT)/apex/com.android.vndk.v31.apex \
     vendor/vortex/CG65/proprietary/system_ext/app/Camera/lib/arm64/libimage_detect.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/Camera/lib/arm64/libimage_detect.so \
     vendor/vortex/CG65/proprietary/system_ext/app/Camera/lib/arm64/libnn_sample.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/Camera/lib/arm64/libnn_sample.so \
@@ -42,8 +42,8 @@ PRODUCT_COPY_FILES += \
     vendor/vortex/CG65/proprietary/system_ext/etc/audio_policy_engine_stream_volumes.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_engine_stream_volumes.xml \
     vendor/vortex/CG65/proprietary/system_ext/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_volumes.xml \
     vendor/vortex/CG65/proprietary/system_ext/etc/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bluetooth_audio_policy_configuration.xml \
-    vendor/vortex/CG65/proprietary/system_ext/etc/build.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/build.prop \
-    vendor/vortex/CG65/proprietary/system_ext/etc/compatconfig/settings-platform-compat-config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/compatconfig/settings-platform-compat-config.xml \
+#    vendor/vortex/CG65/proprietary/system_ext/etc/build.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/build.prop \
+#    vendor/vortex/CG65/proprietary/system_ext/etc/compatconfig/settings-platform-compat-config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/compatconfig/settings-platform-compat-config.xml \
     vendor/vortex/CG65/proprietary/system_ext/etc/custom.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/custom.conf \
     vendor/vortex/CG65/proprietary/system_ext/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default_volume_tables.xml \
     vendor/vortex/CG65/proprietary/system_ext/etc/group:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/group \
