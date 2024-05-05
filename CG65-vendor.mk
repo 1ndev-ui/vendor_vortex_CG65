@@ -8,7 +8,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/vortex/CG65/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
     vendor/vortex/CG65/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
-    vendor/vortex/CG65/proprietary/system_ext/apex/com.android.vndk.v30.apex:$(TARGET_COPY_OUT_SYSTEM_EXT)/apex/com.android.vndk.v30.apex \
+#    vendor/vortex/CG65/proprietary/system_ext/apex/com.android.vndk.v30.apex:$(TARGET_COPY_OUT_SYSTEM_EXT)/apex/com.android.vndk.v30.apex \
     vendor/vortex/CG65/proprietary/system_ext/apex/com.android.vndk.v31.apex:$(TARGET_COPY_OUT_SYSTEM_EXT)/apex/com.android.vndk.v31.apex \
     vendor/vortex/CG65/proprietary/system_ext/app/Camera/lib/arm64/libimage_detect.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/Camera/lib/arm64/libimage_detect.so \
     vendor/vortex/CG65/proprietary/system_ext/app/Camera/lib/arm64/libnn_sample.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/Camera/lib/arm64/libnn_sample.so \
@@ -42,8 +42,8 @@ PRODUCT_COPY_FILES += \
     vendor/vortex/CG65/proprietary/system_ext/etc/audio_policy_engine_stream_volumes.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_engine_stream_volumes.xml \
     vendor/vortex/CG65/proprietary/system_ext/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_volumes.xml \
     vendor/vortex/CG65/proprietary/system_ext/etc/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bluetooth_audio_policy_configuration.xml \
-    vendor/vortex/CG65/proprietary/system_ext/etc/build.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/build.prop \
-    vendor/vortex/CG65/proprietary/system_ext/etc/compatconfig/settings-platform-compat-config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/compatconfig/settings-platform-compat-config.xml \
+#    vendor/vortex/CG65/proprietary/system_ext/etc/build.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/build.prop \
+#    vendor/vortex/CG65/proprietary/system_ext/etc/compatconfig/settings-platform-compat-config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/compatconfig/settings-platform-compat-config.xml \
     vendor/vortex/CG65/proprietary/system_ext/etc/custom.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/custom.conf \
     vendor/vortex/CG65/proprietary/system_ext/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default_volume_tables.xml \
     vendor/vortex/CG65/proprietary/system_ext/etc/group:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/group \
@@ -225,7 +225,6 @@ PRODUCT_COPY_FILES += \
     vendor/vortex/CG65/proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mtkpower@1.2.so \
     vendor/vortex/CG65/proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so \
     vendor/vortex/CG65/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/vortex/CG65/proprietary/system_ext/priv-app/FMRadio/lib/arm64/libfmjni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/FMRadio/lib/arm64/libfmjni.so \
     vendor/vortex/CG65/proprietary/vendor/bin/AgentTest:$(TARGET_COPY_OUT_VENDOR)/bin/AgentTest \
     vendor/vortex/CG65/proprietary/vendor/bin/[:$(TARGET_COPY_OUT_VENDOR)/bin/[ \
     vendor/vortex/CG65/proprietary/vendor/bin/aee_aedv:$(TARGET_COPY_OUT_VENDOR)/bin/aee_aedv \
@@ -527,7 +526,6 @@ PRODUCT_COPY_FILES += \
     vendor/vortex/CG65/proprietary/vendor/etc/init/init.cccimdinit.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccimdinit.rc \
     vendor/vortex/CG65/proprietary/vendor/etc/init/init.cccirpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccirpcd.rc \
     vendor/vortex/CG65/proprietary/vendor/etc/init/init.connfem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.connfem.rc \
-    vendor/vortex/CG65/proprietary/vendor/etc/init/init.fmradio_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fmradio_drv.rc \
     vendor/vortex/CG65/proprietary/vendor/etc/init/init.fpsgo.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fpsgo.rc \
     vendor/vortex/CG65/proprietary/vendor/etc/init/init.gps_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps_drv.rc \
     vendor/vortex/CG65/proprietary/vendor/etc/init/init.md_apps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.md_apps.rc \
@@ -1848,7 +1846,6 @@ PRODUCT_PACKAGES += \
     TeeService \
     DuraSpeed \
     EmergencyInfoFallback \
-    FMRadio \
     GmsSimProcessor \
     GoogleFeedback \
     GoogleServicesFramework \
